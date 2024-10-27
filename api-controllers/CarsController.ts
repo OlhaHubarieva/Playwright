@@ -16,6 +16,20 @@ class CarsController {
         });
     }
 
-}
+    async addUserCar(cookies: string, carBrandId: number, carModelId: number, mileage: number) {
+        return await this.request.post('/api/cars', {
+            headers: {
+                'Cookie': `sid=${cookies}`
+            },
+            data: {
+                "carBrandId": carBrandId,
+                "carModelId": carModelId,
+                "mileage": mileage
+            }
+
+        });
+    }
+
+    }
 
 export default CarsController;
