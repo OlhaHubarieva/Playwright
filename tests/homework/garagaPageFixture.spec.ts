@@ -13,6 +13,8 @@ test.describe(('GaragePage Fixture'), () => {
     })*/
 
     test(('Add BMW X5'), async ({ userGaragePage, page }) => {
+        page.on('request', request => console.log('>>', request.method(), request.url()));
+        page.on('response', response => console.log('<<', response.status(), response.url()));
         await userGaragePage.addNewCar('BMW', 'X5', '100');
         await userGaragePage.verifyLastAddedCarName('BMW X5');
     })
