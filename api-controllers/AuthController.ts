@@ -6,7 +6,7 @@ class AuthController {
         this.request = request;
     }
 
-    async signInAndGetCookies( email: string, password: string) {
+    async signInAndGetCookies(email: string, password: string) {
         let sid: string = '';
         const authRequest = await this.request.post('api/auth/signin', {
             data: {
@@ -29,6 +29,30 @@ class AuthController {
             }
         }
         return sid;
+    }
+
+    async deleteUser(sid: string) {
+        return await this.request.delete('/api/users', {
+            headers: {
+                'Cookie': `sid=${sid}`
+            }
+        });
+    }
+
+    async createUser(name: string, lastName: string, email: string, password: string, sid: string) {
+        return await this.request.post('/api/auth/signup', {
+            data: {
+                name,
+                lastName,
+                email,
+                password,
+                repeatPassword: password
+            },
+            headers: {
+                'Cookie': `sid=${sid}`
+            }
+        })
+
     }
 
 }
