@@ -1,6 +1,6 @@
 import { chromium } from "@playwright/test";
 import { HomePage } from "../../page-objects/pages/HomePage";
-import { test } from "../../test-data/fixtures/fixtureBase";
+import { test } from "../test-data/fixtures/fixtureBase";
 
 test.describe(('GaragePage Fixture'), () => {
     test.use({ storageState: 'test-data/states/mainUserState.json' });

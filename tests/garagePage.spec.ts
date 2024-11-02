@@ -1,8 +1,7 @@
 import test, { chromium } from "@playwright/test";
-import { HomePage } from "../../page-objects/pages/HomePage";
-import { SignInForm } from "../../page-objects/componenets/forms/SignInForm";
-import { randomUserEmail } from '../../test-data/credentials';
-import { GaragePage } from "../../page-objects/pages/GaragePage";
+import { HomePage } from "../page-objects/pages/HomePage";
+import { SignInForm } from "../page-objects/componenets/forms/SignInForm";
+import { GaragePage } from "../page-objects/pages/GaragePage";
 
 test.describe(('GaragePage with POM'), () => {
     test.use({ storageState: 'test-data/states/mainUserState.json' });
@@ -24,7 +23,6 @@ test.describe(('GaragePage with POM'), () => {
     })
 
     test(('Add Audi TT'), async ({ page }) => {
-              await page.goto('https://example.com');
         await garagePage.addNewCar('Audi', 'TT', '100');
         await garagePage.verifyLastAddedCarName('Audi TT');
     })

@@ -47,9 +47,22 @@ export default defineConfig({
     }, 
 
     {
+      name: 'preconditions',
+      use: { ...devices['Desktop Chrome'] },
+      testMatch: '*api/*.preconditions.spec.ts'
+    },
+
+    {
+      name: 'smoke',
+      use: { ...devices['Desktop Chrome'] },
+      testMatch: '*tests/*.spec.ts',
+      dependencies: ['preconditions', 'setup']
+    },
+
+    {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-     // dependencies: ['setup']
+      dependencies: ['setup']
     },
 
     {
