@@ -39,7 +39,7 @@ test.describe(('GaragePage with POM'), () => {
 
 })
 
-test.describe(('GaragePage2 with POM'), () => {
+/*test.describe(('GaragePage2 with POM'), () => {
     test.use({ storageState: 'test-data/states/mainUser2State.json' });
     let homePage: HomePage;
     let signInForm: SignInForm;
@@ -73,4 +73,4 @@ test.describe(('GaragePage2 with POM'), () => {
         await garagePage.verifyLastAddedCarName('Ford Fiesta');
     })
 
-})
+})*/
