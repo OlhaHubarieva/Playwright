@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "YSC",
-      "value": "gqmDVWpdo6Q",
+      "value": "UkSdh07R9oU",
       "domain": ".youtube.com",
       "path": "/",
       "expires": -1,
@@ -12,40 +12,40 @@
     },
     {
       "name": "VISITOR_INFO1_LIVE",
-      "value": "uHDDSQKup9k",
+      "value": "z2LVSEQr1wA",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1746299279.633538,
+      "expires": 1746301855.130919,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "VISITOR_PRIVACY_METADATA",
-      "value": "CgJVQRIEGgAgYA%3D%3D",
+      "value": "CgJVQRIEGgAgWA%3D%3D",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1746299279.633603,
+      "expires": 1746301855.131211,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "NID",
-      "value": "518=xqDqafcGGiHHB-SuhtPGJX5v9qjHaNocSq6zeHtRC9RqNkfbyl5-87S7yNTWY8-pbc3UIrjp4XKoa65QQo-ftWWNJjJOVu6VjNDJZLZ8KH-BmLmxfCf-QJyBK7sTwSfbIeJrq-U_gePJAhpN9N0sF8ryDI9OIysAQFXb4J0XgvNGxvA04A",
+      "value": "518=IuEO80hXLTB1H193arI_ihk1LJaJvt38uqNf8Qzpot0MVxuawptvSHJwFWVXWSrvyhhd7-qPHylmvs0yo0PKYYQnKbhGUMYajploXdqm1n49onV895Ffj-GwiarBumAZgGhVKNRStBUaeMOfd9cP_JVx4NNW4f2qfLMjubvtFsfFUDCAUvA",
       "domain": ".google.com",
       "path": "/",
-      "expires": 1746558480.944082,
+      "expires": 1746561056.453529,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "sid",
-      "value": "s%3AOu2cFeKxQzcoEY3nsXC9Bi0CRjTwZguJ.SZCERvJyxtY6MdZCgITqib%2BdNwMUhIDRsgsHr3aMf%2FE",
+      "value": "s%3A31qEwUjZqNaxd_TWKJIu3Vwh5McZP7k_.nPK0f22o04p9nDivTI6uc8nTW2e3ZE97uwLahD%2BP9uk",
       "domain": ".forstudy.space",
       "path": "/",
-      "expires": 1730833681.49856,
+      "expires": 1730836256.979233,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -57,7 +57,7 @@
       "localStorage": [
         {
           "name": "ytidb::LAST_RESULT_ENTRY_KEY",
-          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1733339280235,\"creation\":1730747280235}"
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1733341855910,\"creation\":1730749855910}"
         }
       ]
     }
