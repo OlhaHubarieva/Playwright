@@ -8,7 +8,7 @@ class CarsController {
 
     async getUserCars(cookies: string) {
 
-        return await this.request.get('/api/cars', {
+        return await this.request.get('https://qauto.forstudy.space/api/cars', {
             headers: {
                 'Cookie': `sid = ${cookies}`
             }
@@ -17,7 +17,7 @@ class CarsController {
     }
 
     async addUserCar(cookies: string, carBrandId: number, carModelId: number, mileage: number) {
-        return await this.request.post('/api/cars', {
+        return await this.request.post('https://qauto.forstudy.space/api/cars', {
             headers: {
                 'Cookie': `sid=${cookies}`
             },

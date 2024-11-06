@@ -8,7 +8,7 @@ class AuthController {
 
     async signInAndGetCookies(email: string, password: string) {
         let sid: string = '';
-        const authRequest = await this.request.post('api/auth/signin', {
+        const authRequest = await this.request.post('https://qauto.forstudy.space/api/auth/signin', {
             data: {
 
                 "email": email,
@@ -32,7 +32,7 @@ class AuthController {
     }
 
     async deleteUser(sid: string) {
-        return await this.request.delete('/api/users', {
+        return await this.request.delete('https://qauto.forstudy.space/api/users', {
             headers: {
                 'Cookie': `sid=${sid}`
             }
@@ -40,7 +40,7 @@ class AuthController {
     }
 
     async createUser(name: string, lastName: string, email: string, password: string, sid: string) {
-        return await this.request.post('/api/auth/signup', {
+        return await this.request.post('https://qauto.forstudy.space/api/auth/signup', {
             data: {
                 name,
                 lastName,

@@ -19,7 +19,7 @@ export class ProfilePage {
     async open() {
 
         await this.profileButton.click();
-        await this.page.goto('/panel/profile');
+        await this.page.goto('https://qauto.forstudy.space/panel/profile');
 
     }
 
