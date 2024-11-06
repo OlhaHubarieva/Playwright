@@ -23,7 +23,7 @@ export class GaragePage {
     }
 
     async open() {
-        await this.page.goto('https://qauto.forstudy.space/panel/garage');
+        await this.page.goto('https://guest:welcome2qauto@qauto.forstudy.space/panel/garage');
     }
 
     async verifyPageIsOpen() {
