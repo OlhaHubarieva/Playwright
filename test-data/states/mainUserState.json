@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "YSC",
-      "value": "AGbSQ5moECE",
+      "value": "ye5Orzs_QPs",
       "domain": ".youtube.com",
       "path": "/",
       "expires": -1,
@@ -12,40 +12,40 @@
     },
     {
       "name": "VISITOR_INFO1_LIVE",
-      "value": "CyuCIGzOIEc",
+      "value": "cyGjTZfOdkI",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1746468655.099291,
+      "expires": 1746473429.171355,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "VISITOR_PRIVACY_METADATA",
-      "value": "CgJVQRIEGgAgKg%3D%3D",
+      "value": "CgJVQRIEGgAgaQ%3D%3D",
       "domain": ".youtube.com",
       "path": "/",
-      "expires": 1746468655.099364,
+      "expires": 1746473429.17144,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "NID",
-      "value": "519=ThotK_-NnKxfE3TLFelmGvKxMEtTqJeISkF7kx_Prka6p-OwnpMdE9MsLMi2_A_LqkWMk6GNuVqRGHv6vGQpG1CnOGGJXSUqnJF4CduH-CbQ0V_i5hdLtjN7Fvp0K749DYaF7X-H8I4fyCg60wAn7tj-6eVRwJpcIDshTo8dWaO-AdUgpGk",
+      "value": "519=J5leZP9gOIHASXyDQG5GE5W_klSFaxO9BrIKCk1P4AtksVVt62irHaiqWb0i_kDtzx_u7pCKy0VyDIyrvqv04tZ5qA7_ZumQ-rvdA6dfu06yfX8Wbkfx_dJ_XM74Q7ub1NqmOb2Vlx00CxfKplm8h1j7xs-lXMA4q-D9SDy7iWbJv1_K0-A",
       "domain": ".google.com",
       "path": "/",
-      "expires": 1746727856.644232,
+      "expires": 1746732630.577753,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "sid",
-      "value": "s%3Ayri5FfkBKbCuJsytpegQG3in1WM0_w_d.I189V5eBKgLcWBnnPOggWofaBxtyHOyVDupcVkIdw7k",
+      "value": "s%3APW5UqrkYVyk41vkKEhC0SDBIRi47RvHy.kz3WRNoXpIHEwArvj4t%2B4y2DGPA1AdnFi5XqfbObWjo",
       "domain": ".forstudy.space",
       "path": "/",
-      "expires": 1731003057.313535,
+      "expires": 1731007831.103448,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -57,7 +57,7 @@
       "localStorage": [
         {
           "name": "ytidb::LAST_RESULT_ENTRY_KEY",
-          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1733508655976,\"creation\":1730916655976}"
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1733513429965,\"creation\":1730921429965}"
         }
       ]
     }
